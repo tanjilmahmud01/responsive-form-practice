@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML CSS Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main>
+      <form action="">
+        <!-- form header -->
+        <h3>Responsive Registration Form</h3>
+
+        <!-- email -->
+        <div>
+          <input type="email" placeholder="Email" />
+        </div>
+        <!-- password -->
+        <div>
+          <input type="password" name="" id="" placeholder="password" />
+        </div>
+        <!-- confirm password -->
+        <div>
+          <input type="password" name="" id="" placeholder="Re-type password" />
+        </div>
+        <!-- first name and last name -->
+        <div id="name-container">
+          <input type="text" name="" id="" placeholder="First Name" />
+          <input type="text" name="" id="lastName" placeholder="Last Name" />
+        </div>
+
+        <!-- Date of Birth -->
+
+        <div id="date-of-birth">
+          <label for="birthday">Date of Birth:</label>
+          <input type="date" id="birthday" name="birthday" />
+        </div>
+
+        <!-- male female radio -->
+        <div id="radio-options">
+          <input type="radio" id="" name="" value="M" />
+          <label for="html">Male</label>
+          <input type="radio" id="" name="" value="F" />
+          <label for="html">Female</label>
+        </div>
+
+        <!-- select option -->
+        <div>
+          <label for="pet-select">Choose a pet:</label>
+
+          <select name="pets" id="pet-select">
+            <option value="">Select A pet</option>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="hamster">Hamster</option>
+            <option value="parrot">Parrot</option>
+            <option value="spider">Spider</option>
+            <option value="goldfish">Goldfish</option>
+          </select>
+        </div>
+
+        <!-- checkbox terms and conditions -->
+        <div id="checkbox-terms">
+          <input
+            type="checkbox"
+            id="vehicle1"
+            name="vehicle1"
+            value="agreeTC"
+          />
+          <label for="vehicle1"> I agree to the terms and conditions </label
+          ><br />
+          <input
+            type="checkbox"
+            id="vehicle2"
+            name="vehicle2"
+            value="receiveNews"
+          />
+          <label for="vehicle2"> I want to receive the newsletter</label><br />
+        </div>
+
+        <!-- submit button -->
+
+        <div>
+          <input class="register-btn" type="submit" value="Register" />
+        </div>
+      </form>
+    </main>
+  </body>
+</html>

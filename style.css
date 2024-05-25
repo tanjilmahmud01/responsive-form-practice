@@ -1,0 +1,82 @@
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+form {
+  width: 400px;
+
+  font-family: "Poppins", sans-serif;
+  padding: 25px 15px;
+  border-top: 4px solid rgb(180, 147, 37);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+form > h3 {
+  font-size: 20px;
+
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 5px;
+
+  margin-bottom: 10px;
+}
+
+input[type="password"],
+input[type="email"] {
+  width: 90%;
+}
+
+#name-container {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+#lastName {
+  margin-left: 20px;
+}
+
+#date-of-birth {
+  margin-bottom: 10px;
+}
+
+#birthday {
+  padding: 5px;
+}
+
+#pet-select {
+  padding: 5px 15px;
+  margin-bottom: 10px;
+}
+
+#radio-options {
+  margin-bottom: 10px;
+}
+
+#checkbox-terms {
+  margin-bottom: 10px;
+}
+
+.register-btn {
+  width: 90%;
+  background-color: rgb(232, 197, 81);
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  padding: 5px 20px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.register-btn:hover {
+  background-color: rgb(180, 147, 37);
+}
